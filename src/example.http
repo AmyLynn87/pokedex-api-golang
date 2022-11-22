@@ -1,0 +1,23 @@
+GET http://localhost:8080/pokedex HTTP/1.1
+
+###
+
+POST http://localhost:8080/pokedex HTTP/1.1
+
+{
+  "id": "004",
+  "name": "Scorbunny", 
+  "type": "Fire", 
+  "willEvolve": true
+}
+
+###
+
+POST http://localhost:8080/pokedex HTTP/1.1
+
+{
+  "id": "005",
+  "name": "Raboot", 
+  "type": "Fire", 
+  "willEvolve": true
+}
